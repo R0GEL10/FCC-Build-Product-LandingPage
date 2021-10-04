@@ -98,7 +98,8 @@
         color: #000000;
         text-decoration: underline;
     }
-    /* .signs {
-        display: flex;
-        justify-content: center;
-    } */
+    
+    .card-columns {
+        display: inline-block;
+        -webkit-column-break-inside: avoid;
+    }
