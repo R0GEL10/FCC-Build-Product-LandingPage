@@ -99,7 +99,12 @@
         text-decoration: underline;
     }
     
-    .card-columns {
-        display: inline-block;
-        -webkit-column-break-inside: avoid;
+    .car-col {
+        display: flex;
+        justify-content: center;
+    }
+    
+    ul li button {
+        color: #858585;
+        font-size: 2em;
     }
