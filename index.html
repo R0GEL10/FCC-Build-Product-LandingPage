@@ -10,67 +10,48 @@
 
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
-
-
     <title>Build Product Landing Page</title>
 
 </head>
 
-
 <body>
-
     <header id="header">
-
         <!-- Container -->
         <div class="container-fluid">
             <!-- Top row for Nav -->
             <div class="row no-gutters">
                 <div class="col-12">
-                    <nav class="navbar navbar-dark bg-dark" id="nav-bar">
+                    <nav id="nav-bar" class="navbar navbar-dark bg-dark">
                         <img id="header-img" src="Exotic-Car.jpg " alt="generic car logo ">
                         <h3>Exotic Car Dealership</h3>
                         <ul>
-                            <li class="nav-link"><a href="#financing">Financing</a></li>
-                            <li class="nav-link"><a href="#brands">Brands</a></li>
-                            <li class="nav-link"><a href="#inventory">Vehicle Inventory</a></li>
-                            <li class="nav-link"><a href="#video">Videos</a></li>
+                            <li><a class="nav-link" href="#financing">Financing</a></li>
+                            <li><a class="nav-link" href="#brands">Brands</a></li>
+                            <li><a class="nav-link" href="#inventory">Vehicle Inventory</a></li>
+                            <li><a class="nav-link" href="#video">Videos</a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
     </header>
 
-
-
-
-
-
     <!-- Mid row for company info -->
     <div class="row">
         <div class="col-12">
             <div class="mid-page">
-
                 <h3 class="cntr ">Best Luxury Cars in the Central Valley! </h3>
                 <br>
                 <br>
-
-                <div class="email-input">
+                <div class="cntr">
                     <h5> Get our latest promotions, deals and inventory updates.</h5>
                 </div>
-
                 <div class="email-input">
-                    <form id="form">
-                        <label for="exampleInputEmail1">
-                          <input id= "email " type="email " class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                        <small id="emailHelp " class="form-text text-muted "></small>
-
+                    <form id="form" action="https://www.freecodecamp.com/email-submit">
+                        <input id="email" type="email" name="email" placeholder="Enter email" required>
                         <div class="button">
-                            <button onclick= "location.href='https://www.freecodecamp.com/email-submit' " id ="submit" type="button" class="btn btn-secondary">Submit</button>
+                            <input id="submit" type="submit" class="btn btn-primary" value="Get More Info">
                         </div>
-
-                    </label>
                     </form>
-
                 </div>
                 <br>
                 <br>
@@ -81,14 +62,11 @@
                     <p class="cntr"> Come take a look for yourself. You will not be disappointed. </p>
                     <br>
                     <br>
-
                     <h4 id="inventory" class="cntr">Vehicle Inventory</h4>
                     <p class="cntr">Whether you're looking for a new car or a used one, we have a car that fits your budget. </p>
                     <p class="cntr">We have the largest inventory in the valley!</p>
                     <p class="cntr">If we don't have the car you're looking for, we find it and have it ship at NO CHARGE TO YOU !! </p>
 
-
-                    <!-- <div class="cntr"> -->
                     <div class="car-col">
 
                         <div class="card-columns">
@@ -102,8 +80,6 @@
                             </div>
                         </div>
 
-
-                        <!-- <div class="cntr"> -->
                         <div class="card-columns">
                             <div class="card" style="width: 18rem;">
                                 <img class="card-img-top" src="bmwI8.jpg" alt="BMW I8">
@@ -115,8 +91,6 @@
                             </div>
                         </div>
 
-
-                        <!-- <div class="cntr"> -->
                         <div class="card-columns">
                             <div class="card" style="width: 18rem;">
                                 <img class="card-img-top" src="audiR8.jpg" alt="Audi R8">
@@ -129,8 +103,6 @@
                         </div>
                     </div>
                 </div>
-
-
 
                 <br>
                 <br>
@@ -158,17 +130,15 @@
             <div class="videos"></div>
             <div class="col-12">
                 <div class="video2">
-
                     <iframe id="video" width="50% " height="315 " src="https://storage.coverr.co/videos/WRf9AJfsWA1Jl0285R00FwuFC01c1tPYq1e?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6Ijg3NjdFMzIzRjlGQzEzN0E4QTAyIiwiaWF0IjoxNjI3MjY3Njg0fQ.gssb0X0XvFhtKkkRYABnh_brkcXZevAk7UzPNdS8g90 ">
-
-
-                        </iframe>
+                    </iframe>
                 </div>
             </div>
         </div>
 
         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
         </script>
+
 </body>
 
 </html>
